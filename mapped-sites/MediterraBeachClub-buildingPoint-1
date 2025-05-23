@@ -1,0 +1,491 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "date_collected": "2025-02-10",
+        "source": "Pure Wireless, LLC",
+        "street_address": "26110 Hickory Blvd",
+        "postal_community": "Bonita Springs",
+        "zip": "34134",
+        "site_type": "beach club",
+        "site_name": "Mediterra Beach Club",
+        "building": "multi level",
+        "wing": "main",
+        "floor_level": 1,
+        "floor_label": "Floor 2",
+        "floor_height": "10ft",
+        "location_type": "door external",
+        "label_id": "stairs",
+        "location_id": "2-15"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.85901914437375,
+          26.35784374005947
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "date_collected": "2025-02-10",
+        "source": "Pure Wireless, LLC",
+        "street_address": "26110 Hickory Blvd",
+        "postal_community": "Bonita Springs",
+        "zip": "34134",
+        "site_type": "beach club",
+        "site_name": "Mediterra Beach Club",
+        "building": "multi level",
+        "wing": "main",
+        "floor_level": 1,
+        "floor_label": "Floor 2",
+        "floor_height": "10ft",
+        "location_type": "door external",
+        "label_id": "office",
+        "location_id": "2-16"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.85893601271029,
+          26.35785893370085
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "date_collected": "2025-02-10",
+        "source": "Pure Wireless, LLC",
+        "street_address": "26110 Hickory Blvd",
+        "postal_community": "Bonita Springs",
+        "zip": "34134",
+        "site_type": "beach club",
+        "site_name": "Mediterra Beach Club",
+        "building": "multi level",
+        "wing": "main",
+        "floor_level": 1,
+        "floor_label": "Floor 2",
+        "floor_height": "10ft",
+        "location_type": "door external",
+        "label_id": "womens restroom",
+        "location_id": "2-17"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.85887358893413,
+          26.357880984645846
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "date_collected": "2025-02-10",
+        "source": "Pure Wireless, LLC",
+        "street_address": "26110 Hickory Blvd",
+        "postal_community": "Bonita Springs",
+        "zip": "34134",
+        "site_type": "beach club",
+        "site_name": "Mediterra Beach Club",
+        "building": "multi level",
+        "wing": "main",
+        "floor_level": 1,
+        "floor_label": "Floor 2",
+        "floor_height": "10ft",
+        "location_type": "door external",
+        "label_id": "mens restroom",
+        "location_id": "2-18"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.85883667487418,
+          26.357899270792164
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "date_collected": "2025-02-10",
+        "source": "Pure Wireless, LLC",
+        "street_address": "26110 Hickory Blvd",
+        "postal_community": "Bonita Springs",
+        "zip": "34134",
+        "site_type": "beach club",
+        "site_name": "Mediterra Beach Club",
+        "building": "multi level",
+        "wing": "main",
+        "floor_level": 1,
+        "floor_label": "Floor 2",
+        "floor_height": "10ft",
+        "location_type": "door external",
+        "label_id": "storage",
+        "location_id": "2-19"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.85885033007521,
+          26.357911371916817
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "date_collected": "2025-02-10",
+        "source": "Pure Wireless, LLC",
+        "street_address": "26110 Hickory Blvd",
+        "postal_community": "Bonita Springs",
+        "zip": "34134",
+        "site_type": "beach club",
+        "site_name": "Mediterra Beach Club",
+        "building": "multi level",
+        "wing": "main",
+        "floor_level": 1,
+        "floor_label": "Floor 2",
+        "floor_height": "10ft",
+        "location_type": "door external",
+        "label_id": "dining room",
+        "location_id": "2-20"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.85886443544773,
+          26.357915271167823
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "date_collected": "2025-02-10",
+        "source": "Pure Wireless, LLC",
+        "street_address": "26110 Hickory Blvd",
+        "postal_community": "Bonita Springs",
+        "zip": "34134",
+        "site_type": "beach club",
+        "site_name": "Mediterra Beach Club",
+        "building": "multi level",
+        "wing": "main",
+        "floor_level": 1,
+        "floor_label": "Floor 2",
+        "floor_height": "10ft",
+        "location_type": "door internal",
+        "label_id": "freezer",
+        "location_id": "2-21"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.8587789028698,
+          26.357930868170545
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "date_collected": "2025-02-10",
+        "source": "Pure Wireless, LLC",
+        "street_address": "26110 Hickory Blvd",
+        "postal_community": "Bonita Springs",
+        "zip": "34134",
+        "site_type": "beach club",
+        "site_name": "Mediterra Beach Club",
+        "building": "multi level",
+        "wing": "main",
+        "floor_level": 1,
+        "floor_label": "Floor 2",
+        "floor_height": "10ft",
+        "location_type": "door internal",
+        "label_id": "electrical room",
+        "location_id": "2-22"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.8587680987547,
+          26.3579160779094
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "date_collected": "2025-02-10",
+        "source": "Pure Wireless, LLC",
+        "street_address": "26110 Hickory Blvd",
+        "postal_community": "Bonita Springs",
+        "zip": "34134",
+        "site_type": "beach club",
+        "site_name": "Mediterra Beach Club",
+        "building": "multi level",
+        "wing": "main",
+        "floor_level": 1,
+        "floor_label": "Floor 2",
+        "floor_height": "10ft",
+        "location_type": "door internal",
+        "label_id": "staff restroom",
+        "location_id": "2-23"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.85875549395372,
+          26.357911775287626
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "date_collected": "2025-02-10",
+        "source": "Pure Wireless, LLC",
+        "street_address": "26110 Hickory Blvd",
+        "postal_community": "Bonita Springs",
+        "zip": "34134",
+        "site_type": "beach club",
+        "site_name": "Mediterra Beach Club",
+        "building": "multi level",
+        "wing": "main",
+        "floor_level": 1,
+        "floor_label": "Floor 2",
+        "floor_height": "10ft",
+        "location_type": "door internal",
+        "label_id": "cooler",
+        "location_id": "2-24"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.85873988800968,
+          26.357941893636703
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "date_collected": "2025-02-10",
+        "source": "Pure Wireless, LLC",
+        "street_address": "26110 Hickory Blvd",
+        "postal_community": "Bonita Springs",
+        "zip": "34134",
+        "site_type": "beach club",
+        "site_name": "Mediterra Beach Club",
+        "building": "multi level",
+        "wing": "main",
+        "floor_level": 1,
+        "floor_label": "Floor 2",
+        "floor_height": "10ft",
+        "location_type": "door internal",
+        "label_id": "kitchen",
+        "location_id": "2-25"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.85882151910161,
+          26.357982768526483
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "date_collected": "2025-02-10",
+        "source": "Pure Wireless, LLC",
+        "street_address": "26110 Hickory Blvd",
+        "postal_community": "Bonita Springs",
+        "zip": "34134",
+        "site_type": "beach club",
+        "site_name": "Mediterra Beach Club",
+        "building": "multi level",
+        "wing": "main",
+        "floor_level": 1,
+        "floor_label": "Floor 2",
+        "floor_height": "10ft",
+        "location_type": "door internal",
+        "label_id": "wine storage",
+        "location_id": "2-26"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.85883022241654,
+          26.358033055377646
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "date_collected": "2025-02-10",
+        "source": "Pure Wireless, LLC",
+        "street_address": "26110 Hickory Blvd",
+        "postal_community": "Bonita Springs",
+        "zip": "34134",
+        "site_type": "beach club",
+        "site_name": "Mediterra Beach Club",
+        "building": "multi level",
+        "wing": "main",
+        "floor_level": 1,
+        "floor_label": "Floor 2",
+        "floor_height": "10ft",
+        "location_type": "door internal",
+        "label_id": "janitors closet",
+        "location_id": "2-27"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.85880561304326,
+          26.358017727302336
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "date_collected": "2025-02-10",
+        "source": "Pure Wireless, LLC",
+        "street_address": "26110 Hickory Blvd",
+        "postal_community": "Bonita Springs",
+        "zip": "34134",
+        "site_type": "beach club",
+        "site_name": "Mediterra Beach Club",
+        "building": "multi level",
+        "wing": "main",
+        "floor_level": 1,
+        "floor_label": "Floor 2",
+        "floor_height": "10ft",
+        "location_type": "door internal",
+        "label_id": "elevator",
+        "location_id": "2-28"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.85880651338617,
+          26.358051879326997
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "date_collected": "2025-02-10",
+        "source": "Pure Wireless, LLC",
+        "street_address": "26110 Hickory Blvd",
+        "postal_community": "Bonita Springs",
+        "zip": "34134",
+        "site_type": "beach club",
+        "site_name": "Mediterra Beach Club",
+        "building": "multi level",
+        "wing": "main",
+        "floor_level": 1,
+        "floor_label": "Floor 2",
+        "floor_height": "10ft",
+        "location_type": "door internal",
+        "label_id": "elevator",
+        "location_id": "2-29"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.85881971841575,
+          26.358065056089725
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "date_collected": "2025-02-10",
+        "source": "Pure Wireless, LLC",
+        "street_address": "26110 Hickory Blvd",
+        "postal_community": "Bonita Springs",
+        "zip": "34134",
+        "site_type": "beach club",
+        "site_name": "Mediterra Beach Club",
+        "building": "multi level",
+        "wing": "main",
+        "floor_level": 1,
+        "floor_label": "Floor 2",
+        "floor_height": "10ft",
+        "location_type": "door external",
+        "label_id": "dining room",
+        "location_id": "2-30"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.85886023384738,
+          26.35804838345092
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "date_collected": "2025-02-10",
+        "source": "Pure Wireless, LLC",
+        "street_address": "26110 Hickory Blvd",
+        "postal_community": "Bonita Springs",
+        "zip": "34134",
+        "site_type": "beach club",
+        "site_name": "Mediterra Beach Club",
+        "building": "multi level",
+        "wing": "main",
+        "floor_level": 1,
+        "floor_label": "Floor 2",
+        "floor_height": "10ft",
+        "location_type": "door external",
+        "label_id": "storage",
+        "location_id": "2-31"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.85889354653564,
+          26.35811211594434
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "date_collected": "2025-02-10",
+        "source": "Pure Wireless, LLC",
+        "street_address": "26110 Hickory Blvd",
+        "postal_community": "Bonita Springs",
+        "zip": "34134",
+        "site_type": "beach club",
+        "site_name": "Mediterra Beach Club",
+        "building": "multi level",
+        "wing": "main",
+        "floor_level": 1,
+        "floor_label": "Floor 2",
+        "floor_height": "10ft",
+        "location_type": "door external",
+        "label_id": "storage",
+        "location_id": "2-32"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.8589139543086,
+          26.358144654461192
+        ]
+      }
+    }
+  ]
+}

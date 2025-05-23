@@ -1,0 +1,189 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "date_collected": "2025-02-10",
+        "source": "Pure Wireless, LLC",
+        "street_address": "15755 Corso Mediterra Circle",
+        "postal_community": "Bonita Springs",
+        "zip": "34134",
+        "site_type": "beach club",
+        "site_name": "Mediterra Beach Club",
+        "building": "multi level",
+        "wing": "main",
+        "floor_level": 2,
+        "floor_label": "Floor 3",
+        "floor_height": "22ft",
+        "space_type": "storage",
+        "room_label": "cooler",
+        "unit": "",
+        "room_ID": "3-12"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -81.8588009612714,
+              26.357999508403175
+            ],
+            [
+              -81.85881956835857,
+              26.357990365338306
+            ],
+            [
+              -81.85882707121625,
+              26.358002668138663
+            ],
+            [
+              -81.858808839272,
+              26.358011878430965
+            ],
+            [
+              -81.8588009612714,
+              26.357999508403175
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "date_collected": "2025-02-10",
+        "source": "Pure Wireless, LLC",
+        "street_address": "15755 Corso Mediterra Circle",
+        "postal_community": "Bonita Springs",
+        "zip": "34134",
+        "site_type": "beach club",
+        "site_name": "Mediterra Beach Club",
+        "building": "multi level",
+        "wing": "main",
+        "floor_level": 2,
+        "floor_label": "Floor 3",
+        "floor_height": "22ft",
+        "space_type": "storage",
+        "room_label": "storage",
+        "unit": "",
+        "room_ID": "3-13"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -81.85882016858714,
+              26.357989155226715
+            ],
+            [
+              -81.85882992230219,
+              26.357983911409715
+            ],
+            [
+              -81.85886646121928,
+              26.358042601809494
+            ],
+            [
+              -81.85885070521805,
+              26.358050265845762
+            ],
+            [
+              -81.85885010498946,
+              26.35804892127803
+            ],
+            [
+              -81.85883157293088,
+              26.358058400480175
+            ],
+            [
+              -81.85882256950164,
+              26.358043744692132
+            ],
+            [
+              -81.85879878544267,
+              26.358055711344896
+            ],
+            [
+              -81.85879173275643,
+              26.35804468588958
+            ],
+            [
+              -81.85879871041409,
+              26.35804139169846
+            ],
+            [
+              -81.85877860275541,
+              26.35800925652301
+            ],
+            [
+              -81.85879961075702,
+              26.357999172261092
+            ],
+            [
+              -81.85880823904341,
+              26.358013357455942
+            ],
+            [
+              -81.85882864681638,
+              26.358003004280725
+            ],
+            [
+              -81.85882016858714,
+              26.357989155226715
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "date_collected": "2025-02-10",
+        "source": "Pure Wireless, LLC",
+        "street_address": "15755 Corso Mediterra Circle",
+        "postal_community": "Bonita Springs",
+        "zip": "34134",
+        "site_type": "beach club",
+        "site_name": "Mediterra Beach Club",
+        "building": "multi level",
+        "wing": "main",
+        "floor_level": 2,
+        "floor_label": "Floor 3",
+        "floor_height": "22ft",
+        "space_type": "elevator",
+        "room_label": "elevator",
+        "unit": "",
+        "room_ID": "3-14"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -81.85879968578561,
+              26.358057257597682
+            ],
+            [
+              -81.85882136904439,
+              26.35804623214252
+            ],
+            [
+              -81.85882969721646,
+              26.3580593416775
+            ],
+            [
+              -81.8588075637862,
+              26.358070299903048
+            ],
+            [
+              -81.85879968578561,
+              26.358057257597682
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

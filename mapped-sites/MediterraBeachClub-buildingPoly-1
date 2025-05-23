@@ -1,0 +1,1605 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "date_collected": "2025-02-10",
+        "source": "Pure Wireless, LLC",
+        "street_address": "15755 Corso Mediterra Circle",
+        "postal_community": "Bonita Springs",
+        "zip": "34134",
+        "site_type": "beach club",
+        "site_name": "Mediterra Beach Club",
+        "building": "multi level",
+        "wing": "main",
+        "floor_level": 1,
+        "floor_label": "Floor 2",
+        "floor_height": "10ft",
+        "space_type": "stairs",
+        "room_label": "stairs",
+        "unit": "",
+        "room_ID": "2-15"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -81.85895146859706,
+              26.357856715160402
+            ],
+            [
+              -81.85905890951952,
+              26.357804276919648
+            ],
+            [
+              -81.85907871706388,
+              26.357836546609086
+            ],
+            [
+              -81.8589706759128,
+              26.35788925374913
+            ],
+            [
+              -81.85895146859706,
+              26.357856715160402
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "date_collected": "2025-02-10",
+        "source": "Pure Wireless, LLC",
+        "street_address": "15755 Corso Mediterra Circle",
+        "postal_community": "Bonita Springs",
+        "zip": "34134",
+        "site_type": "beach club",
+        "site_name": "Mediterra Beach Club",
+        "building": "multi level",
+        "wing": "main",
+        "floor_level": 1,
+        "floor_label": "Floor 2",
+        "floor_height": "10ft",
+        "space_type": "office",
+        "room_label": "office",
+        "unit": "",
+        "room_ID": "2-16"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -81.85889189590686,
+              26.357825655589902
+            ],
+            [
+              -81.85891695545162,
+              26.35781355445628
+            ],
+            [
+              -81.8589412647106,
+              26.357854563848438
+            ],
+            [
+              -81.85891695545162,
+              26.357867471719672
+            ],
+            [
+              -81.85889189590686,
+              26.357825655589902
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "date_collected": "2025-02-10",
+        "source": "Pure Wireless, LLC",
+        "street_address": "15755 Corso Mediterra Circle",
+        "postal_community": "Bonita Springs",
+        "zip": "34134",
+        "site_type": "beach club",
+        "site_name": "Mediterra Beach Club",
+        "building": "multi level",
+        "wing": "main",
+        "floor_level": 1,
+        "floor_label": "Floor 2",
+        "floor_height": "10ft",
+        "space_type": "restroom",
+        "room_label": "womens restroom",
+        "unit": "",
+        "room_ID": "2-17"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -81.85885318116102,
+              26.357844210659007
+            ],
+            [
+              -81.85889024527813,
+              26.357826462332106
+            ],
+            [
+              -81.85891545488006,
+              26.35786800954761
+            ],
+            [
+              -81.85887854082011,
+              26.35788602678206
+            ],
+            [
+              -81.85885318116102,
+              26.357844210659007
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "date_collected": "2025-02-10",
+        "source": "Pure Wireless, LLC",
+        "street_address": "15755 Corso Mediterra Circle",
+        "postal_community": "Bonita Springs",
+        "zip": "34134",
+        "site_type": "beach club",
+        "site_name": "Mediterra Beach Club",
+        "building": "multi level",
+        "wing": "main",
+        "floor_level": 1,
+        "floor_label": "Floor 2",
+        "floor_height": "10ft",
+        "space_type": "dressing room",
+        "room_label": "womens dressing room",
+        "unit": "",
+        "room_ID": "2-18"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -81.85884072641727,
+              26.35786330355307
+            ],
+            [
+              -81.85885798299,
+              26.357854967219428
+            ],
+            [
+              -81.85886503567626,
+              26.357866799434746
+            ],
+            [
+              -81.85884777910351,
+              26.357875001310564
+            ],
+            [
+              -81.85884072641727,
+              26.35786330355307
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "date_collected": "2025-02-10",
+        "source": "Pure Wireless, LLC",
+        "street_address": "15755 Corso Mediterra Circle",
+        "postal_community": "Bonita Springs",
+        "zip": "34134",
+        "site_type": "beach club",
+        "site_name": "Mediterra Beach Club",
+        "building": "multi level",
+        "wing": "main",
+        "floor_level": 1,
+        "floor_label": "Floor 2",
+        "floor_height": "10ft",
+        "space_type": "shower",
+        "room_label": "womens shower",
+        "unit": "",
+        "room_ID": "2-19"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -81.85883397384532,
+              26.357853488192433
+            ],
+            [
+              -81.85885198070383,
+              26.357844882944057
+            ],
+            [
+              -81.85885723270421,
+              26.357853891563437
+            ],
+            [
+              -81.85883907578857,
+              26.357862362354144
+            ],
+            [
+              -81.85883397384532,
+              26.357853488192433
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "date_collected": "2025-02-10",
+        "source": "Pure Wireless, LLC",
+        "street_address": "15755 Corso Mediterra Circle",
+        "postal_community": "Bonita Springs",
+        "zip": "34134",
+        "site_type": "beach club",
+        "site_name": "Mediterra Beach Club",
+        "building": "multi level",
+        "wing": "main",
+        "floor_level": 1,
+        "floor_label": "Floor 2",
+        "floor_height": "10ft",
+        "space_type": "shower",
+        "room_label": "mens shower",
+        "unit": "",
+        "room_ID": "2-20"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -81.85883232321663,
+              26.357854698305427
+            ],
+            [
+              -81.85883772527419,
+              26.35786357246705
+            ],
+            [
+              -81.85881941830134,
+              26.357872177714032
+            ],
+            [
+              -81.85881416630096,
+              26.35786330355307
+            ],
+            [
+              -81.85883232321663,
+              26.357854698305427
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "date_collected": "2025-02-10",
+        "source": "Pure Wireless, LLC",
+        "street_address": "15755 Corso Mediterra Circle",
+        "postal_community": "Bonita Springs",
+        "zip": "34134",
+        "site_type": "beach club",
+        "site_name": "Mediterra Beach Club",
+        "building": "multi level",
+        "wing": "main",
+        "floor_level": 1,
+        "floor_label": "Floor 2",
+        "floor_height": "10ft",
+        "space_type": "dressing room",
+        "room_label": "mens dressing room",
+        "unit": "",
+        "room_ID": "2-21"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -81.85882031864428,
+              26.3578736567408
+            ],
+            [
+              -81.85883847555995,
+              26.35786464812296
+            ],
+            [
+              -81.85884537818906,
+              26.357876345880314
+            ],
+            [
+              -81.85882707121621,
+              26.357884816669387
+            ],
+            [
+              -81.85882031864428,
+              26.3578736567408
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "date_collected": "2025-02-10",
+        "source": "Pure Wireless, LLC",
+        "street_address": "15755 Corso Mediterra Circle",
+        "postal_community": "Bonita Springs",
+        "zip": "34134",
+        "site_type": "beach club",
+        "site_name": "Mediterra Beach Club",
+        "building": "multi level",
+        "wing": "main",
+        "floor_level": 1,
+        "floor_label": "Floor 2",
+        "floor_height": "10ft",
+        "space_type": "restroom",
+        "room_label": "mens restroom",
+        "unit": "",
+        "room_ID": "2-22"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -81.85881341601517,
+              26.357864110295008
+            ],
+            [
+              -81.85883847555995,
+              26.35790511966923
+            ],
+            [
+              -81.85880096127138,
+              26.357923540268654
+            ],
+            [
+              -81.85877560161232,
+              26.357881858616125
+            ],
+            [
+              -81.85881341601517,
+              26.357864110295008
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "date_collected": "2025-02-10",
+        "source": "Pure Wireless, LLC",
+        "street_address": "15755 Corso Mediterra Circle",
+        "postal_community": "Bonita Springs",
+        "zip": "34134",
+        "site_type": "beach club",
+        "site_name": "Mediterra Beach Club",
+        "building": "multi level",
+        "wing": "main",
+        "floor_level": 1,
+        "floor_label": "Floor 2",
+        "floor_height": "10ft",
+        "space_type": "lockers",
+        "room_label": "locker room",
+        "unit": "",
+        "room_ID": "2-23"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -81.8588411765887,
+              26.357904312927584
+            ],
+            [
+              -81.85883052253074,
+              26.35788696798079
+            ],
+            [
+              -81.85886563590486,
+              26.35787002640235
+            ],
+            [
+              -81.85887508950557,
+              26.357887774722563
+            ],
+            [
+              -81.8588411765887,
+              26.357904312927584
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "date_collected": "2025-02-10",
+        "source": "Pure Wireless, LLC",
+        "street_address": "15755 Corso Mediterra Circle",
+        "postal_community": "Bonita Springs",
+        "zip": "34134",
+        "site_type": "beach club",
+        "site_name": "Mediterra Beach Club",
+        "building": "multi level",
+        "wing": "main",
+        "floor_level": 1,
+        "floor_label": "Floor 2",
+        "floor_height": "10ft",
+        "space_type": "storage",
+        "room_label": "storage",
+        "unit": "",
+        "room_ID": "2-24"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -81.85883442401678,
+              26.357909960119
+            ],
+            [
+              -81.85884522813188,
+              26.357904581841467
+            ],
+            [
+              -81.85885378138968,
+              26.357918834276383
+            ],
+            [
+              -81.85884267716027,
+              26.357924078096335
+            ],
+            [
+              -81.85883442401678,
+              26.357909960119
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "date_collected": "2025-02-10",
+        "source": "Pure Wireless, LLC",
+        "street_address": "15755 Corso Mediterra Circle",
+        "postal_community": "Bonita Springs",
+        "zip": "34134",
+        "site_type": "beach club",
+        "site_name": "Mediterra Beach Club",
+        "building": "multi level",
+        "wing": "main",
+        "floor_level": 1,
+        "floor_label": "Floor 2",
+        "floor_height": "10ft",
+        "space_type": "bar",
+        "room_label": "bar",
+        "unit": "",
+        "room_ID": "2-25"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -81.85887313876256,
+              26.357911976973018
+            ],
+            [
+              -81.85889744802155,
+              26.357899203563687
+            ],
+            [
+              -81.85890119945043,
+              26.357905791953936
+            ],
+            [
+              -81.85890615133654,
+              26.357903775099818
+            ],
+            [
+              -81.85892805968105,
+              26.357940347382364
+            ],
+            [
+              -81.85889879853593,
+              26.357954196442222
+            ],
+            [
+              -81.85887313876256,
+              26.357911976973018
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "date_collected": "2025-02-10",
+        "source": "Pure Wireless, LLC",
+        "street_address": "15755 Corso Mediterra Circle",
+        "postal_community": "Bonita Springs",
+        "zip": "34134",
+        "site_type": "beach club",
+        "site_name": "Mediterra Beach Club",
+        "building": "multi level",
+        "wing": "main",
+        "floor_level": 1,
+        "floor_label": "Floor 2",
+        "floor_height": "10ft",
+        "space_type": "dining",
+        "room_label": "outdoor dining",
+        "unit": "",
+        "room_ID": "2-26"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -81.85885513190408,
+              26.357917960306374
+            ],
+            [
+              -81.85884672870345,
+              26.357903707871355
+            ],
+            [
+              -81.85894771716826,
+              26.357854631076936
+            ],
+            [
+              -81.85904030243245,
+              26.358006432929763
+            ],
+            [
+              -81.85890285007912,
+              26.358070972186777
+            ],
+            [
+              -81.8588839428777,
+              26.35803924038991
+            ],
+            [
+              -81.85896197259794,
+              26.358001458027196
+            ],
+            [
+              -81.85892535865233,
+              26.35794169195135
+            ],
+            [
+              -81.85892805968105,
+              26.357940347382364
+            ],
+            [
+              -81.85890615133654,
+              26.35790377509982
+            ],
+            [
+              -81.8589033752792,
+              26.357904917983827
+            ],
+            [
+              -81.85889872350744,
+              26.357896716110137
+            ],
+            [
+              -81.85885513190408,
+              26.357917960306374
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "date_collected": "2025-02-10",
+        "source": "Pure Wireless, LLC",
+        "street_address": "15755 Corso Mediterra Circle",
+        "postal_community": "Bonita Springs",
+        "zip": "34134",
+        "site_type": "beach club",
+        "site_name": "Mediterra Beach Club",
+        "building": "multi level",
+        "wing": "main",
+        "floor_level": 1,
+        "floor_label": "Floor 2",
+        "floor_height": "10ft",
+        "space_type": "dining",
+        "room_label": "dining room",
+        "unit": "",
+        "room_ID": "2-27"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -81.85887313876256,
+              26.357911976973018
+            ],
+            [
+              -81.85889879853593,
+              26.357954196442222
+            ],
+            [
+              -81.8589240831665,
+              26.35794236423584
+            ],
+            [
+              -81.85895964671205,
+              26.35800092019986
+            ],
+            [
+              -81.85887674013432,
+              26.358040853871312
+            ],
+            [
+              -81.85887591481996,
+              26.358039374846683
+            ],
+            [
+              -81.85885363133256,
+              26.358050467530894
+            ],
+            [
+              -81.85884102653158,
+              26.35802895444541
+            ],
+            [
+              -81.85885685756136,
+              26.358021290409006
+            ],
+            [
+              -81.85883044750223,
+              26.357977726394484
+            ],
+            [
+              -81.85881476652958,
+              26.35798539043503
+            ],
+            [
+              -81.85880876424343,
+              26.35797611291218
+            ],
+            [
+              -81.85882482035895,
+              26.35796831441414
+            ],
+            [
+              -81.85880936447207,
+              26.357943439891013
+            ],
+            [
+              -81.85887313876256,
+              26.357911976973018
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "date_collected": "2025-02-10",
+        "source": "Pure Wireless, LLC",
+        "street_address": "15755 Corso Mediterra Circle",
+        "postal_community": "Bonita Springs",
+        "zip": "34134",
+        "site_type": "beach club",
+        "site_name": "Mediterra Beach Club",
+        "building": "multi level",
+        "wing": "main",
+        "floor_level": 1,
+        "floor_label": "Floor 2",
+        "floor_height": "10ft",
+        "space_type": "kitchen",
+        "room_label": "kitchen",
+        "unit": "",
+        "room_ID": "2-28"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -81.85882999733079,
+              26.3579802138463
+            ],
+            [
+              -81.85885333121826,
+              26.358020214753296
+            ],
+            [
+              -81.85883772527424,
+              26.35802774433424
+            ],
+            [
+              -81.85882812161637,
+              26.358011878430965
+            ],
+            [
+              -81.85882467030183,
+              26.35801369359797
+            ],
+            [
+              -81.85883427395969,
+              26.358029559501
+            ],
+            [
+              -81.85881656721546,
+              26.35803769413688
+            ],
+            [
+              -81.85882076881576,
+              26.35804488757474
+            ],
+            [
+              -81.85879811018548,
+              26.358056181943567
+            ],
+            [
+              -81.85879068235636,
+              26.35804381192051
+            ],
+            [
+              -81.85879878544267,
+              26.358040114359014
+            ],
+            [
+              -81.85879495898526,
+              26.358034803315924
+            ],
+            [
+              -81.85881169035792,
+              26.358026534223047
+            ],
+            [
+              -81.85880373732878,
+              26.358012819628673
+            ],
+            [
+              -81.8588056130432,
+              26.35801208011619
+            ],
+            [
+              -81.85880418750024,
+              26.35800979435028
+            ],
+            [
+              -81.85878362967011,
+              26.358019609697667
+            ],
+            [
+              -81.85878460504163,
+              26.358021693778166
+            ],
+            [
+              -81.85876112109698,
+              26.358033122606045
+            ],
+            [
+              -81.85871430326483,
+              26.357955809924825
+            ],
+            [
+              -81.85875069212473,
+              26.35793833052886
+            ],
+            [
+              -81.85874056326682,
+              26.35792125450101
+            ],
+            [
+              -81.8587622465256,
+              26.35791043071829
+            ],
+            [
+              -81.85878873161336,
+              26.357953120787155
+            ],
+            [
+              -81.85880838910055,
+              26.35794384326172
+            ],
+            [
+              -81.85882294464453,
+              26.35796764212982
+            ],
+            [
+              -81.85880651338614,
+              26.357975776770047
+            ],
+            [
+              -81.85881319092948,
+              26.357987340059324
+            ],
+            [
+              -81.85882999733079,
+              26.3579802138463
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "date_collected": "2025-02-10",
+        "source": "Pure Wireless, LLC",
+        "street_address": "15755 Corso Mediterra Circle",
+        "postal_community": "Bonita Springs",
+        "zip": "34134",
+        "site_type": "beach club",
+        "site_name": "Mediterra Beach Club",
+        "building": "multi level",
+        "wing": "main",
+        "floor_level": 1,
+        "floor_label": "Floor 2",
+        "floor_height": "10ft",
+        "space_type": "storage",
+        "room_label": "dry storage",
+        "unit": "",
+        "room_ID": "2-29"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -81.8588002109857,
+              26.35792717060542
+            ],
+            [
+              -81.85883172298807,
+              26.357912111429943
+            ],
+            [
+              -81.8588392258458,
+              26.357924750380928
+            ],
+            [
+              -81.85878940687059,
+              26.35794895262363
+            ],
+            [
+              -81.85878370469871,
+              26.35793994401166
+            ],
+            [
+              -81.85880231178584,
+              26.357930666485167
+            ],
+            [
+              -81.8588002109857,
+              26.35792717060542
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "date_collected": "2025-02-10",
+        "source": "Pure Wireless, LLC",
+        "street_address": "15755 Corso Mediterra Circle",
+        "postal_community": "Bonita Springs",
+        "zip": "34134",
+        "site_type": "beach club",
+        "site_name": "Mediterra Beach Club",
+        "building": "multi level",
+        "wing": "main",
+        "floor_level": 1,
+        "floor_label": "Floor 2",
+        "floor_height": "10ft",
+        "space_type": "storage",
+        "room_label": "freezer",
+        "unit": "",
+        "room_ID": "2-30"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -81.85878513024169,
+              26.357937927158144
+            ],
+            [
+              -81.85877612681243,
+              26.35792306966944
+            ],
+            [
+              -81.85879120755645,
+              26.357915607310144
+            ],
+            [
+              -81.85880028601427,
+              26.357930397571337
+            ],
+            [
+              -81.85878513024169,
+              26.357937927158144
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "date_collected": "2025-02-10",
+        "source": "Pure Wireless, LLC",
+        "street_address": "15755 Corso Mediterra Circle",
+        "postal_community": "Bonita Springs",
+        "zip": "34134",
+        "site_type": "beach club",
+        "site_name": "Mediterra Beach Club",
+        "building": "multi level",
+        "wing": "main",
+        "floor_level": 1,
+        "floor_label": "Floor 2",
+        "floor_height": "10ft",
+        "space_type": "electrical",
+        "room_label": "electrical room",
+        "unit": "",
+        "room_ID": "2-31"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -81.85875571903944,
+              26.35789301854393
+            ],
+            [
+              -81.8587739509837,
+              26.357884009927606
+            ],
+            [
+              -81.85879038224209,
+              26.357910766860616
+            ],
+            [
+              -81.85877222532642,
+              26.35791943933254
+            ],
+            [
+              -81.85875571903944,
+              26.35789301854393
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "date_collected": "2025-02-10",
+        "source": "Pure Wireless, LLC",
+        "street_address": "15755 Corso Mediterra Circle",
+        "postal_community": "Bonita Springs",
+        "zip": "34134",
+        "site_type": "beach club",
+        "site_name": "Mediterra Beach Club",
+        "building": "multi level",
+        "wing": "main",
+        "floor_level": 1,
+        "floor_label": "Floor 2",
+        "floor_height": "10ft",
+        "space_type": "restroom",
+        "room_label": "staff restroom",
+        "unit": "",
+        "room_ID": "2-32"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -81.85876044583983,
+              26.35790747266567
+            ],
+            [
+              -81.8587415386384,
+              26.35791648128017
+            ],
+            [
+              -81.8587340357807,
+              26.357903573414404
+            ],
+            [
+              -81.85875294298214,
+              26.357894564798897
+            ],
+            [
+              -81.85876044583983,
+              26.35790747266567
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "date_collected": "2025-02-10",
+        "source": "Pure Wireless, LLC",
+        "street_address": "15755 Corso Mediterra Circle",
+        "postal_community": "Bonita Springs",
+        "zip": "34134",
+        "site_type": "beach club",
+        "site_name": "Mediterra Beach Club",
+        "building": "multi level",
+        "wing": "main",
+        "floor_level": 1,
+        "floor_label": "Floor 2",
+        "floor_height": "10ft",
+        "space_type": "storage",
+        "room_label": "cooler",
+        "unit": "",
+        "room_ID": "2-33"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -81.85871340292195,
+              26.35791493502549
+            ],
+            [
+              -81.85873005926608,
+              26.35790700206638
+            ],
+            [
+              -81.85874889143895,
+              26.35793859944264
+            ],
+            [
+              -81.85873216006625,
+              26.357946532399584
+            ],
+            [
+              -81.85871340292195,
+              26.35791493502549
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "date_collected": "2025-02-10",
+        "source": "Pure Wireless, LLC",
+        "street_address": "15755 Corso Mediterra Circle",
+        "postal_community": "Bonita Springs",
+        "zip": "34134",
+        "site_type": "beach club",
+        "site_name": "Mediterra Beach Club",
+        "building": "multi level",
+        "wing": "main",
+        "floor_level": 1,
+        "floor_label": "Floor 2",
+        "floor_height": "10ft",
+        "space_type": "closet",
+        "room_label": "janitor closet",
+        "unit": "",
+        "room_ID": "2-34"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -81.85878700595612,
+              26.358021223179332
+            ],
+            [
+              -81.85880246184301,
+              26.358013559141156
+            ],
+            [
+              -81.85880891430064,
+              26.358024046772226
+            ],
+            [
+              -81.85879353344231,
+              26.358031710809716
+            ],
+            [
+              -81.85878700595612,
+              26.358021223179332
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "date_collected": "2025-02-10",
+        "source": "Pure Wireless, LLC",
+        "street_address": "15755 Corso Mediterra Circle",
+        "postal_community": "Bonita Springs",
+        "zip": "34134",
+        "site_type": "beach club",
+        "site_name": "Mediterra Beach Club",
+        "building": "multi level",
+        "wing": "main",
+        "floor_level": 1,
+        "floor_label": "Floor 2",
+        "floor_height": "10ft",
+        "space_type": "storage",
+        "room_label": "wine storage",
+        "unit": "",
+        "room_ID": "2-35"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -81.85882106893013,
+              26.35803917316152
+            ],
+            [
+              -81.85883735013135,
+              26.35803130743933
+            ],
+            [
+              -81.85884815424646,
+              26.358049324648338
+            ],
+            [
+              -81.85883194807379,
+              26.358057257597682
+            ],
+            [
+              -81.85882106893013,
+              26.35803917316152
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "date_collected": "2025-02-10",
+        "source": "Pure Wireless, LLC",
+        "street_address": "15755 Corso Mediterra Circle",
+        "postal_community": "Bonita Springs",
+        "zip": "34134",
+        "site_type": "beach club",
+        "site_name": "Mediterra Beach Club",
+        "building": "multi level",
+        "wing": "main",
+        "floor_level": 1,
+        "floor_label": "Floor 2",
+        "floor_height": "10ft",
+        "space_type": "elevator",
+        "room_label": "elevator",
+        "unit": "",
+        "room_ID": "2-36"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -81.858798560357,
+              26.358057257597682
+            ],
+            [
+              -81.8588215191016,
+              26.35804616491413
+            ],
+            [
+              -81.85882909698789,
+              26.358058602165308
+            ],
+            [
+              -81.85880598818615,
+              26.358069829304423
+            ],
+            [
+              -81.858798560357,
+              26.358057257597682
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "date_collected": "2025-02-10",
+        "source": "Pure Wireless, LLC",
+        "street_address": "15755 Corso Mediterra Circle",
+        "postal_community": "Bonita Springs",
+        "zip": "34134",
+        "site_type": "beach club",
+        "site_name": "Mediterra Beach Club",
+        "building": "multi level",
+        "wing": "main",
+        "floor_level": 1,
+        "floor_label": "Floor 2",
+        "floor_height": "10ft",
+        "space_type": "balcony",
+        "room_label": "balcony",
+        "unit": "",
+        "room_ID": "2-37"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -81.85879203287078,
+              26.358085359057927
+            ],
+            [
+              -81.85879728487116,
+              26.3580826026949
+            ],
+            [
+              -81.8587990105284,
+              26.358085493514647
+            ],
+            [
+              -81.85880876424345,
+              26.358080384158757
+            ],
+            [
+              -81.8588299223022,
+              26.358115611818484
+            ],
+            [
+              -81.8588201685872,
+              26.358119981661037
+            ],
+            [
+              -81.85882159413016,
+              26.358122872479846
+            ],
+            [
+              -81.85881724247268,
+              26.358124889330146
+            ],
+            [
+              -81.85879203287078,
+              26.358085359057927
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "date_collected": "2025-02-10",
+        "source": "Pure Wireless, LLC",
+        "street_address": "15755 Corso Mediterra Circle",
+        "postal_community": "Bonita Springs",
+        "zip": "34134",
+        "site_type": "beach club",
+        "site_name": "Mediterra Beach Club",
+        "building": "multi level",
+        "wing": "main",
+        "floor_level": 1,
+        "floor_label": "Floor 2",
+        "floor_height": "10ft",
+        "space_type": "lobby",
+        "room_label": "foyer",
+        "unit": "",
+        "room_ID": "2-38"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -81.85880778887197,
+              26.35807231675426
+            ],
+            [
+              -81.85884935470371,
+              26.358051812098616
+            ],
+            [
+              -81.85887411413415,
+              26.358092821406263
+            ],
+            [
+              -81.85883299847387,
+              26.358113863881428
+            ],
+            [
+              -81.85880778887197,
+              26.35807231675426
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "date_collected": "2025-02-10",
+        "source": "Pure Wireless, LLC",
+        "street_address": "15755 Corso Mediterra Circle",
+        "postal_community": "Bonita Springs",
+        "zip": "34134",
+        "site_type": "beach club",
+        "site_name": "Mediterra Beach Club",
+        "building": "multi level",
+        "wing": "main",
+        "floor_level": 1,
+        "floor_label": "Floor 2",
+        "floor_height": "10ft",
+        "space_type": "entry",
+        "room_label": "covered entry",
+        "unit": "",
+        "room_ID": "2-39"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -81.85887328881981,
+              26.358042669037882
+            ],
+            [
+              -81.85890037413614,
+              26.358087510365607
+            ],
+            [
+              -81.85888071664895,
+              26.35809685510787
+            ],
+            [
+              -81.85885378138974,
+              26.35805221546893
+            ],
+            [
+              -81.85887328881981,
+              26.358042669037882
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "date_collected": "2025-02-10",
+        "source": "Pure Wireless, LLC",
+        "street_address": "15755 Corso Mediterra Circle",
+        "postal_community": "Bonita Springs",
+        "zip": "34134",
+        "site_type": "beach club",
+        "site_name": "Mediterra Beach Club",
+        "building": "multi level",
+        "wing": "main",
+        "floor_level": 1,
+        "floor_label": "Floor 2",
+        "floor_height": "10ft",
+        "space_type": "stairs",
+        "room_label": "stairs",
+        "unit": "",
+        "room_ID": "2-40"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -81.85883457407404,
+              26.358114939535007
+            ],
+            [
+              -81.85887478939136,
+              26.358095846682485
+            ],
+            [
+              -81.85890690162239,
+              26.358147343594407
+            ],
+            [
+              -81.85886563590498,
+              26.358167377634885
+            ],
+            [
+              -81.85883457407404,
+              26.358114939535007
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "date_collected": "2025-02-10",
+        "source": "Pure Wireless, LLC",
+        "street_address": "15755 Corso Mediterra Circle",
+        "postal_community": "Bonita Springs",
+        "zip": "34134",
+        "site_type": "beach club",
+        "site_name": "Mediterra Beach Club",
+        "building": "multi level",
+        "wing": "main",
+        "floor_level": 1,
+        "floor_label": "Floor 2",
+        "floor_height": "10ft",
+        "space_type": "storage",
+        "room_label": "storage",
+        "unit": "",
+        "room_ID": "2-41"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -81.85890720173667,
+              26.358107947786564
+            ],
+            [
+              -81.85892550870952,
+              26.358138200541223
+            ],
+            [
+              -81.85890870230823,
+              26.35814667131111
+            ],
+            [
+              -81.85888979510679,
+              26.358116149645273
+            ],
+            [
+              -81.85890720173667,
+              26.358107947786564
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "date_collected": "2025-02-10",
+        "source": "Pure Wireless, LLC",
+        "street_address": "15755 Corso Mediterra Circle",
+        "postal_community": "Bonita Springs",
+        "zip": "34134",
+        "site_type": "beach club",
+        "site_name": "Mediterra Beach Club",
+        "building": "multi level",
+        "wing": "main",
+        "floor_level": 1,
+        "floor_label": "Floor 2",
+        "floor_height": "10ft",
+        "space_type": "terrace",
+        "room_label": "covered terrace",
+        "unit": "",
+        "room_ID": "2-42"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -81.85892685922391,
+              26.358139545107917
+            ],
+            [
+              -81.85894981796851,
+              26.358178671991755
+            ],
+            [
+              -81.85888964504964,
+              26.358207983531788
+            ],
+            [
+              -81.85886608607642,
+              26.358169528941048
+            ],
+            [
+              -81.85892685922391,
+              26.358139545107917
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "date_collected": "2025-02-10",
+        "source": "Pure Wireless, LLC",
+        "street_address": "15755 Corso Mediterra Circle",
+        "postal_community": "Bonita Springs",
+        "zip": "34134",
+        "site_type": "beach club",
+        "site_name": "Mediterra Beach Club",
+        "building": "multi level",
+        "wing": "main",
+        "floor_level": 1,
+        "floor_label": "Floor 2",
+        "floor_height": "10ft",
+        "space_type": "pool",
+        "room_label": "pool deck",
+        "unit": "",
+        "room_ID": "2-43"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -81.85889684779303,
+              26.358073526864978
+            ],
+            [
+              -81.85904030243245,
+              26.358006432929763
+            ],
+            [
+              -81.85910017523703,
+              26.358105930935974
+            ],
+            [
+              -81.85894981796851,
+              26.358178671991755
+            ],
+            [
+              -81.85890044916472,
+              26.35809167852412
+            ],
+            [
+              -81.85890630139373,
+              26.358089123846334
+            ],
+            [
+              -81.85889684779303,
+              26.358073526864978
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}
