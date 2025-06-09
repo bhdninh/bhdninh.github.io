@@ -7,7 +7,7 @@
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
         <style>
             #map {
-                height: 600px;
+                height: 800px;
                 width: 100%;
             }
             /*.polygon-tooltip {
@@ -32,18 +32,33 @@
         </style>
     </head>
     <body>
-        <a style="margin: 10px"; href="javascript:loadLayers('Floor-1','BayColonyGolfClub/bcgc-py-1','BayColonyGolfClub/bcgc-pt-1')">Floor-1</a>
-        <a style="margin: 10px"; href="javascript:loadLayers('Floor-2','BayColonyGolfClub/bcgc-py-2','BayColonyGolfClub/bcgc-pt-2')">Floor-2</a>
-        <p id="addr" style="text-align: center">Address</p>
-        <p id="floor" style="text-align: center">Floor-1</p>
-        <div id="map"></div>
+        <div id="menu" style="display: block">
+            <p style="text-align: center">Mapped Sites</p>
+            <a style="margin: 10px"; href="javascript:loadSite('BayColonyGolfClub')">Bay Colony Golf Club</a>
+            <a style="margin: 10px"; href="javascript:loadSite('GermainToyota')">Germain Toyota</a>
+        </div>
+        <div id="site" style="display: none">
+            <a style="margin: 10px; text-align: left"; href="javascript:backToMenu()">Back To Mapped Sites</a>
+            <p id="addr" style="text-align: center">Address</p>
+            <a style="margin: 10px"; href="javascript:loadLayers(0)">Floor-0</a>
+            <a style="margin: 10px"; href="javascript:loadLayers(1)">Floor-1</a>
+            <p id="floor" style="text-align: center">Floor-1</p>
+            <div id="map"></div>
+        </div>
+
         <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
         <script>
-            var map = L.map('map').setView([26.26390170677747, -81.79506016462454], 19,
-                { maxZoom: 22}
-            );
+            // global variables
+            var pLayer = null;
+            var pStyle = null;
+            var addr = null;
 
-            
+            var site_view = [0,0];
+            var building_poly = {};
+            var building_point = {};
+            var poly = {"type": "FeatureCollection", "features": []};
+            var point = {"type": "FeatureCollection", "features": []};
+            var map = L.map('map');
             // Add OpenStreetMap tiles
             var osm = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
                 attribution: '&copy: OpenStreetMap contributors',
@@ -51,55 +66,110 @@
             });
             osm.addTo(map);
 
-            // L.tileLayer('http://{s}.google.com/vt/lyrs=s&x={x}&y={y}&z={z}', {
-            //     maxZoom: 20,
-            //     subdomains: ['mt0', 'mt1', 'mt2', 'mt3']
-            // }).addTo(map);
-
-            // polygons
-            var pLayer = null;
-            var pStyle = null;
-            var addr = null;
+            // support functions
+            function backToMenu() {
+                document.getElementById('menu').style.display = "block";
+                document.getElementById('site').style.display = "none";
+            }
             function removeAllLayers(){ 
+                pLayer = null;
+                pStyle = null;
+                addr = '';
+
                 map.eachLayer(function (layer) {
                     map.removeLayer(layer);
                 });
                 map.addLayer(osm);
             }
 
-            loadLayers('Floor-1','BayColonyGolfClub/bcgc-py-1','BayColonyGolfClub/bcgc-pt-1');
-            
-            async function loadLayers(floor, py, pt) {
-                document.getElementById('floor').innerHTML = floor;
-                const respy = await fetch(`https://raw.githubusercontent.com/bhdninh/911locate/refs/heads/main/${py}.geojson`);
-                const poly = await respy.json();
+            async function loadSite(sel) {
+                let respy = '';
+                let respt = '';
+                switch (sel) {
+                    case 'BayColonyGolfClub':
+                        respy = await fetch(`https://raw.githubusercontent.com/bhdninh/911locate/refs/heads/main/${sel}/${sel}-buildingPoly.geojson`);
+                        building_poly = await respy.json();
+                        respt = await fetch(`https://raw.githubusercontent.com/bhdninh/911locate/refs/heads/main/${sel}/${sel}-buildingPoint.geojson`);
+                        building_point = await respt.json();
+                        site_view[0] = building_point.features[0].geometry.coordinates[1];
+                        site_view[1] = building_point.features[0].geometry.coordinates[0];
+                        addr = `${building_point.features[0].properties.site_name}<br>${building_point.features[0].properties.street_address}, ${building_point.features[0].properties.postal_community}, zip: ${building_point.features[0].properties.zip}`;
+                        document.getElementById('addr').innerHTML = addr;
+                        break;
+                    case 'GermainToyota':
+                        respy = await fetch(`https://raw.githubusercontent.com/bhdninh/911locate/refs/heads/main/${sel}/${sel}-buildingPoly.geojson`);
+                        building_poly = await respy.json();
+                        respt = await fetch(`https://raw.githubusercontent.com/bhdninh/911locate/refs/heads/main/${sel}/${sel}-buildingPoint.geojson`);
+                        building_point = await respt.json();
+                        site_view[0] = building_point.features[0].geometry.coordinates[1];
+                        site_view[1] = building_point.features[0].geometry.coordinates[0];
+                        addr = `${building_point.features[0].properties.site_name}<br>${building_point.features[0].properties.street_address}, ${building_point.features[0].properties.postal_community}, zip: ${building_point.features[0].properties.zip}`;
+                        document.getElementById('addr').innerHTML = addr;
+                        break;
+                    default:
+                        alert('not found');
+                        break;
+                }
                 removeAllLayers();
-                L.geoJson(poly, {
-                        onEachFeature: function(feature, layer) {
-                          if (addr == null) {
-                            addr = `${feature.properties.street_address}, ${feature.properties.postal_community}, zip: ${feature.properties.zip}`;
-                            document.getElementById('addr').innerHTML = addr;
-                          }
-                          if (pLayer == null) {
-                            pLayer = layer;
-                            pStyle = pLayer.options;
-                          }
-                          layer.bindPopup(`<p>${feature.properties.space_type}: ${feature.properties.room_label}<br>
-                            Floor: ${feature.properties.floor_label}<br>
-                            Height: ${feature.properties.floor_height}</p>`);
-                          layer.on('click', function(e) {
-                            e.target.setStyle({fillColor: 'red'});
-                            pLayer.setStyle(pStyle);
-                            pLayer = layer;
-                          }).openTooltip();
-                        }
-                    }).addTo(map);
-                // return textData;       // You can return it or use it elsewhere
-            // }
+                loadMap();
+            }
 
-            // async function loadPoint() {
-                const respt = await fetch(`https://raw.githubusercontent.com/bhdninh/911locate/refs/heads/main/${pt}.geojson`);
-                const point = await respt.json();
+        function loadMap() {
+            document.getElementById('site').style.display = 'block';
+            document.getElementById('menu').style.display = "none";
+
+
+            // L.tileLayer('http://{s}.google.com/vt/lyrs=s&x={x}&y={y}&z={z}', {
+            //     maxZoom: 20,
+            //     subdomains: ['mt0', 'mt1', 'mt2', 'mt3']
+            // }).addTo(map);
+
+
+            loadLayers(0);
+            map.setView(site_view, 19,
+                { maxZoom: 22}
+            );
+        }
+            
+            function loadLayers(floor) {
+                document.getElementById('floor').innerHTML = `Floor-${floor}`;
+
+                building_poly.features.forEach(ele => {
+                    if (ele.properties.floor_level == floor) {
+                        poly.features.push(ele);
+                    }
+                });
+
+                L.geoJson(poly, {
+                    onEachFeature: function(feature, layer) {
+                        if (feature.properties.floor_level == floor) {
+                            // if (addr == '') {
+                            //     addr = `${feature.properties.site_name}<br>${feature.properties.street_address}, ${feature.properties.postal_community}, zip: ${feature.properties.zip}`;
+                            //     document.getElementById('addr').innerHTML = addr;
+                            // }
+                            if (pLayer == null) {
+                                pLayer = layer;
+                                pStyle = pLayer.options;
+                            }
+                            layer.bindPopup(`<p>${feature.properties.space_type}: ${feature.properties.room_label}<br>
+                                Floor: ${feature.properties.floor_label}<br>
+                                Height: ${feature.properties.floor_height}</p>`);
+                                
+                            layer.on('click', function(e) {
+                                e.target.setStyle({fillColor: 'red'});
+                                pLayer.setStyle(pStyle);
+                                pLayer = layer;
+                            }).openTooltip();
+                        }
+                    }
+                }).addTo(map);
+
+
+                building_point.features.forEach(ele => {
+                    if (ele.properties.floor_level == floor) {
+                        point.features.push(ele);
+                    }
+                });
 
                 L.geoJson(point, {
                     onEachFeature: function(feature, layer) {
@@ -111,6 +181,6 @@
                 }).addTo(map);
             }
 
-</script>
+        </script>
     </body>
 </html>
